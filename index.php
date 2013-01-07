@@ -1,6 +1,7 @@
 <?php
 
 $_SERVER['PATH_INFO'] = NULL;
+define('Document_root',dirname(__FILE__));
 /**
  * CodeIgniter
  *

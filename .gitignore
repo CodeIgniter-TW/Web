@@ -3,3 +3,4 @@ user_guide/*
 forum/*
 download_files/*
 application/config/database.php
+application/cache/*
