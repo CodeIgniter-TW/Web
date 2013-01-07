@@ -45,9 +45,7 @@ class Blog extends MY_Controller
         $config['last_link'] = '最後一頁 &raquo;';
         $this->pagination->initialize($config);
 
-        // 取最新
         $data['NewsList'] = $this->news_model->getNews($config['per_page'], $Page);
-        // 取最新的 15 条新闻
         $data['LastNewsList'] = $this->news_model->getNewsByNumber(15);
         $data['Pages'] = $this->pagination->create_links();
         $data['NewsTitle'] = '';

@@ -17,8 +17,6 @@ class MY_Controller extends CI_Controller
         parent::__construct();
         // load template library
         $this->load->spark('codeigniter-template/1.0.1');
-        $this->load->library('template');
-        $this->load->helper('url');
         $this->load->model(array('news_model', 'projects_model'));
         $this->template->set('body_class', $this->uri->segment(1));
         $this->template->set('BottomProjectsList', $this->projects_model->getProjectsByNumber(16));
