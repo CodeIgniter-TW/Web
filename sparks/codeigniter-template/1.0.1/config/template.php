@@ -10,7 +10,6 @@ $config['template_layout'] = 'template/layout';
  * default css
  */
 $config['template_css'] = array(
-    '/assets/css/index.css' => 'screen'
 );
 
 /**
@@ -19,22 +18,20 @@ $config['template_css'] = array(
  * load javascript on footer: TRUE
  */
 $config['template_js'] = array(
-    'https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js' => FALSE,
-    '/assets/js/index.js' => TRUE
 );
 
 /**
  * default variable
  */
 $config['template_vars'] = array(
-    'site_description' => 'xxxx',
-    'site_keywords' => 'xxxx'
+    'site_description' => 'CodeIgniter: 非官方繁體中文',
+    'site_keywords' => 'CodeIgniter,PHP,PHP開發框架,開放程式碼,開源,應用程序,快速開發,framework,application'
 );
 
 /**
  * default site title
  */
-$config['base_title'] = 'xxxxx';
+$config['base_title'] = 'CodeIgniter 繁體中文 - 中小企業的救星，開發人員的福音';
 
 /**
  * default title separator

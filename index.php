@@ -1,4 +1,6 @@
 <?php
+
+$_SERVER['PATH_INFO'] = NULL;
 /**
  * CodeIgniter
  *

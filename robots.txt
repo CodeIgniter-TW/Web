@@ -1,0 +1,7 @@
+#
+# robots.txt for CodeIgniter TC
+#
+
+User-agent: *
+
+Disallow: /assets/

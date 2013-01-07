@@ -64,8 +64,17 @@
 |
 */
 
-$route['default_controller'] = 'welcome';
+$route['default_controller'] = 'home';
 $route['404_override'] = '';
+
+$route['irc'] = "home/irc";
+$route['blog/P(\d+)'] = "blog/viewbypage/$1";
+$route['blog/(\d+)'] = "blog/viewbypage/$1";
+$route['blog/([a-z_\.0-9]+)'] = "blog/viewbyalias/$1";
+$route['terms/([a-z_0-9]+)'] = "terms/index/$1";
+
+$route['projectsadmin/([a-z_0-9]+)/view/P(\d+)'] = "projectsadmin/$1/view/$2";
+$route['blogadmin/([a-z_0-9]+)/view/P(\d+)'] = "blogadmin/$1/view/$2";
 
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
