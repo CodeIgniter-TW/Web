@@ -27,6 +27,7 @@
         <p><em class="date">發布者: <?=$item['news_author'];?>, 日期: <?=$item['news_date'];?></em></p>
       </div>
       <?php endforeach;?>
+      <div class="paginate"><?=$Pages;?></div>
       <!--
       <div class="paginate"><span class="pagecount">第 <?=$CurrentPage;?> 頁/共 <?=$TotalPages;?> 頁</span> <?=$Pages;?> </div>
       -->
