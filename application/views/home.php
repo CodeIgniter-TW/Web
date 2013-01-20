@@ -7,8 +7,6 @@
                   <em>版本 2.1.3</em></a></li>
                 <li><a href="<?=base_url();?>user_guide"><img src="/assets/images/design/icon_docs.png" alt="icon_docs" width="32" height="32" />閱讀使用手冊<br />
                     <em>CodeIgniter 有清晰完善的文件</em></a></li>
-                <li><a href="<?=site_url('tutorials');?>"><img src="/assets/images/design/icon_tutorial.png" alt="icon_tutorial" width="32" height="32" />觀看影音教學<br />
-                    <em>20 分鐘建立一個部落格！</em></a></li>
                 <li><a href="<?=base_url();?>forum"><img src="/assets/images/design/icon_talk.png" alt="icon_talk" width="32" height="32" />論壇交流<br />
                     <em>加入論壇</em></a></li>
             </ul>
