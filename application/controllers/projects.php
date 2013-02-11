@@ -18,22 +18,20 @@ class Projects extends MY_Controller
     public function submit()
     {
         $this->template->add_title_segment('送出您的專案網站');
+        $this->load->helper(array('form', 'url'));
         $this->load->library('form_validation');
 
         $this->form_validation->set_rules('title', '網站名稱', 'trim|required|max_length[50]');
         $this->form_validation->set_rules('url', '網站地址', 'trim|required|min_length[8]|max_length[190]|callback__url_check');
         $this->form_validation->set_rules('description', '網站描述', 'trim|required|max_length[1024]');
 
-        if ($this->form_validation->run() == FALSE)
-        {
+        if ($this->form_validation->run() == FALSE) {
             $data['ProjectsList'] = $this->projects_model->getProjects();
             $data['Title'] = $this->input->post('title');
             $data['Url'] = $this->input->post('url');
             $data['Description'] = $this->input->post('description');
             $this->template->render('projects/submit', $data);
-        }
-        else
-        {
+        } else {
             $title = $this->input->post('title');
             $url = $this->input->post('url');
             $description = $this->input->post('description');
@@ -51,12 +49,9 @@ class Projects extends MY_Controller
 
     public function _url_check($str)
     {
-        if (preg_match("/^http:\/\//i", $str))
-        {
+        if (preg_match("/^http:\/\//i", $str)) {
             return TRUE;
-        }
-        else
-        {
+        } else {
             $this->form_validation->set_message('_url_check', '%s 不是 URL。');
             return FALSE;
         }
