@@ -10,7 +10,7 @@
                 <p>CodeIgniter 目前版本是 2.1.4，參考 <a href="<?=base_url();?>user_guide/changelog.html">Change Log</a></p>
                 <p><a class="github" target="_blank" href="https://github.com/CodeIgniter-TW/CodeIgniter-Language"><span class="label success">系統繁體中文語系檔</span></a></p>
                 <div id="currentVersionLink">
-                    <a href="<?=base_url();?>downloads/file/CodeIgniter_2.1.3"><em>版本 2.1.4</em></a>
+                    <a href="<?=base_url();?>downloads/file/CodeIgniter_2.1.4"><em>版本 2.1.4</em></a>
                 </div>
             </div>
             <div id="subversion">
