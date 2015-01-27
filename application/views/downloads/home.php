@@ -7,10 +7,10 @@
             <h2>下載 CodeIgniter</h2>
             <div id="currentVersion">
                 <h3><img src="/assets/images/design/codeigniter.png" width="48" height="48" alt="CodeIgniter" /> 目前版本</h3>
-                <p>CodeIgniter 目前版本是 2.2.0，參考 <a href="<?=base_url();?>user_guide/changelog.html">Change Log</a></p>
+                <p>CodeIgniter 目前版本是 2.2.1，參考 <a href="<?=base_url();?>user_guide/changelog.html">Change Log</a></p>
                 <p><a class="github" target="_blank" href="https://github.com/CodeIgniter-TW/CodeIgniter-Language"><span class="label success">系統繁體中文語系檔</span></a></p>
                 <div id="currentVersionLink">
-                    <a href="<?=base_url();?>downloads/file/CodeIgniter_2.2.0"><em>版本 2.2.0</em></a>
+                    <a href="<?=base_url();?>downloads/file/CodeIgniter_2.2.1"><em>版本 2.2.1</em></a>
                 </div>
             </div>
             <div id="subversion">
@@ -25,6 +25,7 @@
                 <p>想找舊版本的 CodeIgniter？你可以從下面選擇任何一個舊的版本。<br />
                    請注意：我們不維護歷史版本。</p>
                 <ul>
+                    <li><a href="<?=base_url();?>downloads/file/CodeIgniter_2.2.0">CodeIgniter V 2.2.0</a></li>
                     <li><a href="<?=base_url();?>downloads/file/CodeIgniter_2.1.4">CodeIgniter V 2.1.4</a></li>
                     <li><a href="<?=base_url();?>downloads/file/CodeIgniter_2.1.3">CodeIgniter V 2.1.3</a></li>
                     <li><a href="<?=base_url();?>downloads/file/CodeIgniter_2.1.2">CodeIgniter V 2.1.2</a></li>
