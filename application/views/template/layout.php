@@ -32,12 +32,12 @@
         <li id="homenav"><a href="<?=site_url();?>">首頁</a></li>
         <li id="downloadsnav"><a href="<?=site_url('downloads');?>">下載</a></li>
         <li id="newsnav"><a href="<?=site_url('blog');?>">最新訊息</a></li>
-        <li id="manualnav"><a href="<?=base_url();?>user_guide" target="_blank">使用手冊</a></li>
+        <li id="manualnav3"><a href="<?=base_url();?>userguide3" target="_blank">使用手冊 3.x</a></li>
+        <li id="manualnav2"><a href="<?=base_url();?>user_guide" target="_blank">使用手冊 2.x</a></li>
         <li id="forumnav"><a href="<?=base_url();?>forum" >論壇交流</a></li>
         <li id="projectnav"><a href="<?=site_url('projects');?>">CodeIgniter 案例</a></li>
         <li id="ircnav"><a href="<?=site_url('irc');?>">IRC 頻道</a></li>
-        <li id="wikinav"><a href="http://codeigniter.com/wiki/" target="_blank">Wiki(英文)</a></li>
-        <li id="bugnav"><a href="https://github.com/EllisLab/CodeIgniter/issues" target="_blank">Bug 追蹤(英文)</a></li>
+        <li id="bugnav"><a href="https://github.com/bcit-ci/CodeIgniter/issues" target="_blank">Bug 追蹤(英文)</a></li>
     </ul>
     <div class="clear"></div>
 </div>
