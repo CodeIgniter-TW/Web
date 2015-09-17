@@ -3,8 +3,8 @@
         <div id="home_banner">
             <h2 class="hide">CodeIgniter 是開放原始碼的framework 減少開發的時間。</h2>
             <ul>
-                <li><a href="<?=base_url();?>downloads/file/CodeIgniter_3.0.0" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
-                  <em>版本 3.0.0</em></a></li>
+                <li><a href="<?=base_url();?>downloads/file/CodeIgniter_3.0.1" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
+                  <em>版本 3.0.1</em></a></li>
                 <li><a href="<?=base_url();?>user_guide"><img src="/assets/images/design/icon_docs.png" alt="icon_docs" width="32" height="32" />閱讀使用手冊<br />
                     <em>CodeIgniter 有清晰完善的文件</em></a></li>
                 <li><a href="<?=base_url();?>forum"><img src="/assets/images/design/icon_talk.png" alt="icon_talk" width="32" height="32" />論壇交流<br />
@@ -34,7 +34,7 @@
         </div>
         <div id="news">
             <h4><span>CodeIgniter 最新訊息</span></h4>
-            <?php foreach($NewsList as $item):?>
+            <?php foreach ($NewsList as $item):?>
             <h5><?=$item['news_title'];?></h5>
             <p><a href="<?=site_url("blog/{$item['news_alias']}");?>">閱讀全文&#8230;</a></p>
             <p><em class="date">發佈者: <?=$item['news_author'];?>, 日期: <?=$item['news_date'];?></em></p>
