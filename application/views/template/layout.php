@@ -36,7 +36,6 @@
         <li id="manualnav2"><a href="<?=base_url();?>user_guide" target="_blank">使用手冊 2.x</a></li>
         <li id="forumnav"><a href="<?=base_url();?>forum" >論壇交流</a></li>
         <li id="projectnav"><a href="<?=site_url('projects');?>">CodeIgniter 案例</a></li>
-        <li id="ircnav"><a href="<?=site_url('irc');?>">IRC 頻道</a></li>
         <li id="bugnav"><a href="https://github.com/bcit-ci/CodeIgniter/issues" target="_blank">Bug 追蹤(英文)</a></li>
     </ul>
     <div class="clear"></div>
@@ -49,13 +48,16 @@
             <div class="image"><img src="/assets/images/design/icon_new_07.png" alt="New!" width="49" height="49" /></div>
             <?php
             $i = 0;
-            foreach($BottomProjectsList as $item):
-                if ($i%4 == 0) echo '<ul class="ci_sites">';
+            foreach ($BottomProjectsList as $item):
+                if ($i%4 === 0) {
+                    echo '<ul class="ci_sites">';
+                }
             ?>
                 <li><a href="<?=$item['project_url'];?>" target="_blank"><?=$item['project_name'];?></a></li>
-                <!--<li><a href="<?=site_url('projects');?>">查看更多案例&hellip;</a></li>-->
             <?php
-                if ($i%4 == 3 and $i != 0) echo '</ul>';
+                if ($i%4 === 3 and $i !== 0) {
+                    echo '</ul>';
+                }
                 $i++;
             ?>
             <?php endforeach;?>

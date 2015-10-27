@@ -68,7 +68,6 @@
                     <h3><img src="/assets/images/design/international.png" width="48" height="48" alt="International" /> CodeIgniter 國際化</h3>
                     <p>CodeIgniter 社群的國際會員為非英文使用者精心製作了很多資源。你可以在下面的連結 Wiki 文章中找到語言包和用户指南的翻譯。
                          EllisLab 不維護也不正式認可這些資源，但大多數的品質都是相當不錯的，而且對非英文使用者來說相當有幫助</p>
-                    <p><a href="http://codeigniter.com/wiki/Language_Translation/" target="_blank">國際化資源</a> (CodeIgniter Wiki 上的語言翻譯文章)</p>
             </div>
             <div class="clear"></div>
         </div>
