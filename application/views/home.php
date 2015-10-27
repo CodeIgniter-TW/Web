@@ -3,8 +3,8 @@
         <div id="home_banner">
             <h2 class="hide">CodeIgniter 是開放原始碼的framework 減少開發的時間。</h2>
             <ul>
-                <li><a href="<?=base_url();?>downloads/file/CodeIgniter_3.0.1" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
-                  <em>版本 3.0.1</em></a></li>
+                <li><a href="<?=base_url();?>downloads/file/CodeIgniter_3.0.2" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
+                  <em>版本 3.0.2</em></a></li>
                 <li><a href="<?=base_url();?>user_guide"><img src="/assets/images/design/icon_docs.png" alt="icon_docs" width="32" height="32" />閱讀使用手冊<br />
                     <em>CodeIgniter 有清晰完善的文件</em></a></li>
                 <li><a href="<?=base_url();?>forum"><img src="/assets/images/design/icon_talk.png" alt="icon_talk" width="32" height="32" />論壇交流<br />
