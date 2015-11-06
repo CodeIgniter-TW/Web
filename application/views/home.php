@@ -5,6 +5,8 @@
             <ul>
                 <li><a href="<?=base_url();?>downloads/file/CodeIgniter_3.0.3" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
                   <em>版本 3.0.3</em></a></li>
+                <li><a href="<?=base_url();?>downloads/file/CodeIgniter_2.2.6" class="home_banner_links"><img src="/assets/images/design/icon_download.png" alt="icon_download" width="32" height="32" />下載 CodeIgniter<br />
+                  <em>版本 2.2.6</em></a></li>
                 <li><a href="<?=base_url();?>userguide3"><img src="/assets/images/design/icon_docs.png" alt="icon_docs" width="32" height="32" />閱讀使用手冊<br />
                     <em>CodeIgniter 有清晰完善的文件</em></a></li>
                 <li><a href="<?=base_url();?>forum"><img src="/assets/images/design/icon_talk.png" alt="icon_talk" width="32" height="32" />論壇交流<br />
