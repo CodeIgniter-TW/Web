@@ -16,7 +16,7 @@
             <div id="subversion">
                 <h3>GitHub 網站</h3>
                 <p><a href="http://git-scm.com/" target="_blank">Git</a> 是一個版本控制系統。</p>
-                <p>您可以在 <a href="http://github.ciom">Github</a> 網站使用 git 功能，請注意: 儘管花了很多努力在程式碼，但是我們不能保證從 develop 分支所下載的程式碼功能完整</p>
+                <p>您可以在 <a href="http://github.com">Github</a> 網站使用 git 功能，請注意: 儘管花了很多努力在程式碼，但是我們不能保證從 develop 分支所下載的程式碼功能完整</p>
                 <p>從 2.0.3 版本開始，您可以透過 Github Tag 來下載程式碼，只需要在 Tag 下拉你要的版本即可</p>
             </div>
             <div class="clear"></div>
