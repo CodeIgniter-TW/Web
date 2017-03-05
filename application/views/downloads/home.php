@@ -7,10 +7,10 @@
             <h2>下載 CodeIgniter</h2>
             <div id="currentVersion">
                 <h3><img src="/assets/images/design/codeigniter.png" width="48" height="48" alt="CodeIgniter" /> 目前版本</h3>
-                <p>CodeIgniter 目前版本是 3.1.2，參考 <a href="<?=base_url();?>userguide3/changelog.html">版本記錄</a></p>
+                <p>CodeIgniter 目前版本是 3.1.3，參考 <a href="<?=base_url();?>userguide3/changelog.html">版本記錄</a></p>
                 <p><a class="github" target="_blank" href="https://github.com/CodeIgniter-TW/CodeIgniter-Language"><span class="label success">系統繁體中文語系檔</span></a></p>
                 <div id="currentVersionLink">
-                    <a href="<?=base_url();?>downloads/file/CodeIgniter_3.1.2"><em>版本 3.1.2</em></a>
+                    <a href="<?=base_url();?>downloads/file/CodeIgniter_3.1.3"><em>版本 3.1.3</em></a>
                 </div>
             </div>
             <div id="subversion">
